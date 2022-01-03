@@ -48,15 +48,26 @@
 	</header>
 
 	<main>
-		
+
 		<?php 
 			require 'cards.php';
+			require "dashboard_cards/totals.php";
 
-			card('Football Matches', 'images/Coat_of_arms_of_Ghana.svg.png', '200', 'addStadium.php', 'addStadium.php');
+			// Users
+			card('Users', 'images/user_icon.png', getTotalNumberOfUsers(), 'addStadium.php', 'addStadium.php');
+
+			// stadiums
+			card('Stadiums', 'images/football_stadium.svg', getTotalNumberOfStadiums(), 'addStadium.php', 'addStadium.php');
+
+			// events
+			card('Events', 'images/realCalender.svg', getTotalNumberOfEvents(), 'addStadium.php', 'addStadium.php');
+
+			// Ticket
+			card('Tickets', 'images/ticket.svg', getTotalNumberOfTickets(), 'addStadium.php', 'addStadium.php');
+
 		?>
 
 	</main>
 
 </body>
 </html>
-

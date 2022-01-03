@@ -9,7 +9,7 @@
       </div>
       <div id='card_text'>
         <div id='card_name'>
-          <small>$title: </small>
+          <small><b>$title: </b></small>
         </div>
         <div>
           <h2 id='number'>

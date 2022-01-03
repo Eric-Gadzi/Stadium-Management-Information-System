@@ -1,7 +1,9 @@
 .active{
 	border-bottom-style: solid;
-	border-width: medium;
+	border-width: thick;
 	font-size: 1.4rem;
-	color: palevioletred;
+	border-bottom-color: orange;
+	/*color: palevioletred;*/
+
 
 }
